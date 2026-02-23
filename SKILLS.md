@@ -1,6 +1,12 @@
 ---
 name: minions-oss-features
-description: Feature backlog, daily picks, implementation plans, and acceptance criteria
+id: OC-0136
+version: 1.0.0
+description: "Feature backlog, daily picks, implementation plans, and acceptance criteria"
+category: cloud
+subcategory: oss
+tags: ["minion", "cloud", "oss"]
+comments:
 ---
 
 # minions-oss-features — Agent Skills
