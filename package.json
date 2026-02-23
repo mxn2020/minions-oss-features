@@ -1,0 +1,28 @@
+{
+    "name": "minions-oss-features-workspace",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Feature backlog, daily picks, implementation plans, and acceptance criteria",
+    "type": "module",
+    "license": "MIT",
+    "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "pnpm --filter @minions-oss-features/sdk run build && pnpm --filter @minions-oss-features/cli run build && pnpm --filter @minions-oss-features/docs run build && pnpm --filter @minions-oss-features/blog run build && pnpm --filter @minions-oss-features/web run build",
+        "deploy:blog": "pnpm --filter @minions-oss-features/blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter @minions-oss-features/docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter @minions-oss-features/web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @minions-oss-features/sdk run test",
+        "lint": "pnpm --filter @minions-oss-features/sdk run build && pnpm --filter @minions-oss-features/sdk run lint && pnpm --filter @minions-oss-features/cli run lint",
+        "deploy": "pnpm run deploy:blog"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}
