@@ -1,0 +1,1 @@
+# @minions-oss-features/web\n\nStandard compliance definition for @minions-oss-features/web\n\n![CI](https://github.com/mxn2020/@minions-oss-features/web/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)\n

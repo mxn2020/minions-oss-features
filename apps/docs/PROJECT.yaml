@@ -1,0 +1,8 @@
+name: "@minions-oss-features/docs"
+project_scope: child
+child_type: docs
+parent_project: minions-oss-features-workspace
+description: "Standard compliance definition for @minions-oss-features/docs"
+priority: high
+deploy_url: null
+tags: null

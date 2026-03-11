@@ -1,0 +1,15 @@
+name: minions-oss-features-workspace
+project_scope: main
+project_type: monorepo
+description: "Feature backlog, daily picks, implementation plans, and acceptance criteria"
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-oss-features"
+deploy_url: null
+last_active: 2026-02-23
+tags: [minion, toolbox, ai-agent, automation, minions, oss, features]
+notes: null
+id: 4d7ef8f9-c6e6-440d-b00f-64efcdd070ce

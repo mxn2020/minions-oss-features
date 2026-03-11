@@ -1,0 +1,8 @@
+name: "@minions-oss-features/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-oss-features-workspace
+description: "CLI for minions-oss-features — Feature backlog, daily picks, implementation plans, and acceptance criteria"
+priority: high
+deploy_url: null
+tags: null

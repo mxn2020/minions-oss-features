@@ -1,3 +1,5 @@
+![CI](https://github.com/mxn2020/@minions-oss-features/sdk/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # @minions-oss-features/sdk
 
 Feature backlog, daily picks, implementation plans, and acceptance criteria

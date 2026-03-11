@@ -1,0 +1,8 @@
+name: "@minions-oss-features/sdk"
+project_scope: child
+child_type: sdk
+parent_project: minions-oss-features-workspace
+description: "Feature backlog, daily picks, implementation plans, and acceptance criteria"
+priority: high
+deploy_url: null
+tags: null
